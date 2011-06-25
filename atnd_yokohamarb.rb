@@ -2,7 +2,7 @@ def atnd_yokohamarb
   {
     :title => "Yokohama.rb 第?回",
     :catch => "",
-    :description => "",
+    :description => "Yokohama.rbは、横浜周辺のRuby技術者たちが集まってRubyに関する何かをする地域Rubyistコミュニティです。",
     :started_at => "2011-07-02",
     :started_at_time => "17:00",
     :ended_at => "2011-07-02",
