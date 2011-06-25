@@ -6,12 +6,10 @@ hello.
 
 == setup
 
- ruby -r sheep-sebastian -e 'SheepSebastian::Exec.new().create_from_template' mytask
 
 == cron
 
- sheep dan5ya
-
+ ruby -r ./sheeprc.rb -e 'SheepSebastian.new()' dbname
 
 == todo
 
