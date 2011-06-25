@@ -1,0 +1,10 @@
+hello.
+
+== install
+
+ gem install sheep-sebastion
+
+== setup
+
+== todo
+
