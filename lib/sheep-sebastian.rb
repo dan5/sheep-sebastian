@@ -46,8 +46,8 @@ class SheepSebastian
     p template
   end
 
-  def initialize(db_filename = nil)
-    db = DB.load(db_filename || ARGV.first, {:since_id => nil})
+  def initialize()
+    db = DB.load(DB_filename, {:since_id => nil})
     recipe = Recipe
     tweets(db).each do |tweet|
       if hit?(tweet.text, recipe)

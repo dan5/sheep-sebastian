@@ -9,7 +9,7 @@ hello.
 
 == cron
 
- ruby -r ./sheeprc.rb -e 'SheepSebastian.new()' dbname
+ ruby -r sheep-sebastian -r ./sheeprc.rb -e 'SheepSebastian.new()'
 
 == todo
 
