@@ -20,7 +20,7 @@ class SheepSebastian
   def tweets(db)
     since_id = db[:since_id]
     opts = since_id ? { :since_id => since_id } : {}
-    tweets = Twitter.user_timeline('dan5ya', opts)
+    tweets = Twitter.user_timeline(Target_screen_name, opts)
     unless tweets.empty?
       db[:since_id] = tweets.first.id
       db.save

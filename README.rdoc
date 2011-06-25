@@ -8,7 +8,7 @@ hello.
 
 You should write `sheeprc.rb'.
 
-see https://github.com/dan5/sheep-sebastian/blob/master/sheeprc_default.rb
+See https://github.com/dan5/sheep-sebastian/blob/master/sheeprc_default.rb
 
 == run
 
