@@ -2,9 +2,38 @@ hello.
 
 == install
 
- gem install sheep-sebastion
+ gem install sheep-sebastian
 
 == setup
 
+ ruby -r sheep-sebastian -e 'SheepSebastian::Exec.new().create_from_template' mytask
+
+== cron
+
+ sheep dan5ya
+
+
 == todo
 
+* twitterアカウント
+** @sheepsebastian
+
+* tweetの監視
+** rubytter
+** 特定のアカウントのtweetを取得するだけ
+
+* tweetから実行コマンド作成
+
+* 流れ
+  # tweet解析
+  # 実行コマンド生成
+  # 実行
+
+* 設定ファイル
+** 羊への通知パターンを決める
+** ATNDにpostするtwitterのアカウント情報
+** パターン定義 => 実行コマンド作成
+
+* ATND書き込み部分は別の独立したプロジェクトになる
+** gem化してもらっていいし、しないでheepsebastianに突っこんでもいい
+** しないほうが改変の自由がききそうだ
