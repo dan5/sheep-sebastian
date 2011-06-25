@@ -5,11 +5,11 @@ require "sheep-sebastian/version"
 Gem::Specification.new do |s|
   s.name        = "sheep-sebastian"
   s.version     = Sheep::Sebastian::VERSION
-  s.authors     = ["dan5"]
+  s.authors     = ["dan5ya"]
   s.email       = ["dan5.ya@gmail.com"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.homepage    = "https://github.com/dan5/sheep-sebastion"
+  s.summary     = %q{todo}
+  s.description = %q{todo...}
 
   s.rubyforge_project = "sheep-sebastian"
 
