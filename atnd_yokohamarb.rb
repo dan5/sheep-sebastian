@@ -1,3 +1,5 @@
+# -*- encoding: utf-8 -*-
+
 def atnd_yokohamarb
   {
     :title => "Yokohama.rb 第?回",
