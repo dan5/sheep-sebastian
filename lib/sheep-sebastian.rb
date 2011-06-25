@@ -29,8 +29,7 @@ class SheepSebastian
   end
 
   def hit?(text, recipe)
-    recipe[:keywords].each {|keyword| text[keyword] or return false }
-    return true
+    recipe[:keywords].all? {|keyword| text[keyword] }
   end
 
   def atend_new_post(text, recipe)
