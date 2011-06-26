@@ -12,4 +12,4 @@ See https://github.com/dan5/sheep-sebastian/blob/master/sheeprc_default.rb
 
 == run
 
- ruby -r sheep-sebastian -r ./sheeprc.rb -e 'SheepSebastian.new()'
+ ruby -r sheep-sebastian -r ./sheeprc.rb -e 'SheepSebastian.new'

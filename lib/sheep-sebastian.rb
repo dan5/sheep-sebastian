@@ -33,6 +33,7 @@ class SheepSebastian
   end
 
   def atend_new_post(text, recipe)
+    p text
     tmp, month, day = text.match(/(1?\d)\/([1-3]?\d)/).to_a
     tmp, hour, minutes = text.match(/([12]?\d):([0-5]?\d)/).to_a
     at = sprintf("%04d-%02d-%02d", Time.now.year, month, day) # todo: next year...
@@ -40,8 +41,6 @@ class SheepSebastian
     template = Post_template
     template[:started_at] = at
     template[:started_at_time] = at_time
-    template[:ended_at] = at
-    p text
     p template
   end
 

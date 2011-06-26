@@ -19,7 +19,7 @@ class SheepSebastian
     #:started_at => "0000-00-00",
     #:started_at_time => "00:00",
     #:ended_at => "0000-00-00",
-    :ended_at_time => "23:55",
+    #:ended_at_time => "23:55",
     :limit => "",
     :place => "",
     :address => "",
